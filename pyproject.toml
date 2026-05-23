@@ -1,0 +1,17 @@
+[project]
+name = "palletizing"
+version = "0.1.0"
+description = "Palletizing kinematic packing prototype"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy==2.0.1",
+  "shapely==2.0.4",
+  "deap==1.4.1",
+  "plotly==5.22.0",
+  "kaleido==0.2.1",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
